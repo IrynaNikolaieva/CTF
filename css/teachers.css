@@ -1,0 +1,52 @@
+
+.top h1{
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 45px;
+	border-bottom-style: solid;
+	margin-top: -2px;
+
+}
+.top {
+	vertical-align: top;
+	border-collapse: collapse
+}
+
+
+.tab1 {
+	width: 2%;
+}
+
+.tab2 {
+	width: 30%;
+}
+
+.tab3 {
+	width: 25%;
+	font-size: 1.5vw;
+}
+
+
+.tab3 button  {
+
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: MediumBlue; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+
+} 
+.tab3  button a {
+  color: #fff; /* цвет текста */
+
+}
+
+
+.tab3 button:hover { background: #02214b; } /* при наведении курсора мышки */
+.tab3 button:active { background: #000; } 
